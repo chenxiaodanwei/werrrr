@@ -31,7 +31,7 @@ redis:
 ribbon:
   eager-load:
     enabled: true #开启Ribbon的饥饿加载模式
-    clients: vasms-auth,vasms-upms-service #指定需要饥饿加载的服务名
+    clients: vasms-auth#,vasms-upms-service #指定需要饥饿加载的服务名
   Httpclient:
     enabled: false
   OkHttp:  #OkHttp 也提供了对 HTTP 响应的缓存机制，会自动重试一个主机的多个 IP 地址
