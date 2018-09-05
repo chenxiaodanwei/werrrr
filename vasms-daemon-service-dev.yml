@@ -6,7 +6,7 @@ spring:
     driver-class-name: oracle.jdbc.driver.OracleDriver
     username: frame
     password: test
-    url: jdbc: jdbc:oracle:thin:@222.212.141.40:9106:VASTEST
+    url: jdbc:oracle:thin:@222.212.141.40:9106:VASTEST
   elasticjob:
     zookeeper:
       server-lists: 127.0.0.1:2181
