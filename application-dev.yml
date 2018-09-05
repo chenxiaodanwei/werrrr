@@ -10,7 +10,7 @@ server:
 
 spring:
   redis:
-    remote: false        #cachecloud 高速缓存获取
+    remote: false #cachecloud 高速缓存获取
     host: 127.0.0.1
     port: 6379
     password:
@@ -34,8 +34,8 @@ ribbon:
     clients: vasms-auth,vasms-upms-service #指定需要饥饿加载的服务名
   Httpclient:
     enabled: false
-  OkHttp:  #OkHttp 也提供了对 HTTP 响应的缓存机制，会自动重试一个主机的多个 IP 地址
-    enabled: true
+  OkHttp: 
+    enabled: true #OkHttp 也提供了对 HTTP 响应的缓存机制，会自动重试一个主机的多个 IP 地址
   ReadTimeout: 10000
   ConnectTimeout: 10000
 
