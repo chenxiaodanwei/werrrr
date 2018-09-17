@@ -50,7 +50,7 @@ ignore:
     - /auth/**
     - /admin/code/*
     - /admin/smsCode/*
-    - /admin/smsCode/*
+    - /admin/user/isExit
     - /admin/user/resetUser
     - /admin/user/info
     - /admin/menu/userMenu
