@@ -4,7 +4,7 @@ server:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 127.0.0.1:5672
+      addresses: 192.168.50.113:5672
       password: vas
       username: vas
       queue: zipkin
